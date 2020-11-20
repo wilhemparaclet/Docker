@@ -10,6 +10,7 @@ $ sudo apt-get update && sudo apt-get install apt-transport-https ca-certificate
 $ sudo apt update && sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 3) Lancer votre premier container ubuntu, l’équivalent du hello-world de docker
+
 $ docker container run hello-world
 
 4) Regarder si votre container est bien lancer
