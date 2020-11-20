@@ -14,7 +14,7 @@ $ docker container run hello-world
 
 4)regarder si votre container est bien lancer
 
-$ docker start
+$ docker start mon_container
 
 5)expliquer les commandes docker build, run et exec
 
