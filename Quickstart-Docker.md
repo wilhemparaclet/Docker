@@ -32,5 +32,5 @@ List Répertorier les mappages de ports ou un mappage spécifique pour le conten
 
 7) Vérifier en vous connectant à votre container qu’il est bien up et qu’il s’aggit bien
 $ docker ps
-IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
-nginx               "/docker-entrypoint.…"   39 minutes ago      Up 39 minutes       0.0.0.0:8000->80/tcp  mon_container
+IMAGE               COMMAND                  CREATED             STATUS                NAMES
+nginx               "/docker-entrypoint.…"   39 minutes ago      Up 39 minutes         mon_container
