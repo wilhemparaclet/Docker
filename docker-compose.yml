@@ -1,0 +1,18 @@
+version: "3"
+services:
+  monapp:
+    build: .
+    image: monapp
+    depends_on:
+      - redis
+    ports:
+      - "5000:5000"
+    networks:
+      - monreseau
+  redis:
+    image: redis
+    networks:
+      - monreseau
+networks:
+  monreseau:
+
